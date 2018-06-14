@@ -1,0 +1,28 @@
+{
+  "name": "rssify",
+  "version": "1.0.0",
+  "description": "Generate RSS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DONSA/governo-sombra.git"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "node-fetch": "^1.7.3",
+    "rss": "^1.2.2"
+  },
+  "keywords": [
+    "rss"
+  ],
+  "author": "Nuno Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DONSA/governo-sombra/issues"
+  },
+  "homepage": "https://github.com/DONSA/governo-sombra#readme"
+}
