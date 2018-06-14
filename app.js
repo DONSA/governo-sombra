@@ -27,7 +27,7 @@ function scrape() {
                 });
             })
 
-            fs.writeFile("./public/rss.xml", feed.xml({ indent: true }), (err) => {
+            fs.writeFile("./rss.xml", feed.xml({ indent: true }), (err) => {
                 if (err) console.error(err)
             })
 
