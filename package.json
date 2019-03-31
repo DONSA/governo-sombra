@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "cheerio": "latest",
+    "dotenv": "^7.0.0",
     "node-fetch": "^1.7.3",
     "rss": "^1.2.2"
   },
